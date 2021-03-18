@@ -1,5 +1,4 @@
-﻿   
-    
+   
    body {
   background-color: white;
 }
@@ -308,11 +307,11 @@ margin-left:27%;
 @media screen and (max-width: 600px) {
 
  .mainimg{
-	width:1410px;
+	width:1450px;
 	height:700px;
 	
 	margin-right:12px;
-	margin-left:-54px;
+	margin-left:-66px;
 padding:60px;
 	
 
@@ -607,7 +606,7 @@ font-size:12px;
 	
 
 .footer-gray {
-  background-color: #EFEFEF;
+  background-color: #F5F5F5;
   width: 100%;
   height:350px;
  
@@ -982,9 +981,9 @@ font-size:12px;
 	
 
 .footer-gray {
-  background-color: #EFEFEF;
-  width: 1500px;
-  height:500px;
+  background-color: #F5F5F5;
+  width: 1450px;
+  height:3400px;
   margin-left:-10px;
  
 }
@@ -1006,17 +1005,18 @@ font-size:12px;
 
 .footer.column1{
 
-  float: left;
-  margin-top:-60px;
-  width: 54%;
-  padding: 40px;
-  height: 60px; /* Should be removed. Only for demonstration */
+float:left;
+  margin-top:80px;
+ 
+  width: 98%;
+  padding: 40px 40px;
+  height: 50px; /* Should be removed. Only for demonstration */
 }
 .footer.column1.p1{
 
-  float: left;
+
   margin-top:-8px;
-  font-size:14px;
+  font-size:55px;
   font-family:Arial black;
 
   
@@ -1027,8 +1027,8 @@ font-size:12px;
 .footer.column1.p2{
 
   float: non;
-  margin-top:-105px;
-  font-size:14px;
+  margin-top:-35px;
+  font-size:70px;
   margin-left:-35px;
   
 
@@ -1047,15 +1047,16 @@ font-size:12px;
 
 .footer.column1.form{
 	
-	width:40%;
-	height:40px;
-	margin-top:-115px;
+	width:100%;
+	height:200px;
+	margin-top:50px;
 	 margin-left:-32px;
 }
 
 input[type=email], select {
-  width: 200px;
-  padding: 18px 20px;
+font-size:26px;
+  width: 300px;
+  padding: 49px 300px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -1064,11 +1065,12 @@ input[type=email], select {
 }
 
 input[type=submit] {
+font-size:45px;
   background-color: black;
   color: white;
   border: none;
-  height:50px;
-  width:75px;
+  height:121px;
+  width:400px;
 }
 
 input[type=submit]:hover {
@@ -1077,10 +1079,10 @@ input[type=submit]:hover {
 
 
 .footer.column2 {
-  float: left;
-  width: 30%;
-  margin-left:55%;
-  margin-top:-85px;
+float:left;
+  width: 90%;
+ 
+margin-top:700px;
   padding: 10px;
   height: 120px; /* Should be removed. Only for demonstration */
 }
@@ -1095,43 +1097,48 @@ input[type=submit]:hover {
 
 
 .footer.column3 {
-  float: left;
-  width: 30%;
-  margin-left:70%;
-    margin-top:-143px;
+
+  width: 40%;
+  float:left;
+    margin-top:350px;
+   margin-bottom:97px;
   padding: 10px;
-  height: 120px; /* Should be removed. Only for demonstration */
+  height: 140px; /* Should be removed. Only for demonstration */
 }
 
 .footer.column4 {
-  float: left;
-  width: 30%;
-  margin-left:85%;
-  margin-top:-144px;
-  padding: 10px;
+ 
+  width: 40%;
+ float:left;
+ margin-left:-600px;
+  margin-top:1150px;
+
+  padding: 14px;
   height: 120px; /* Should be removed. Only for demonstration */
 }
 
 
 .footer.h2{
 	
-	font-size:14px;
+	font-size:55px;
 	color:black;
 	font-family:Arial black;
-	
+	margin-left:30px;
+	margin-top:150px;
 }
 
 
 .social-icon-button {
-margin-top:190px;
-margin-left:-430px;
+margin-top:-70px;
+
   border-radius: 3.6rem;
-  width: 3.6rem;
-  height: 3.6rem;
-  position: relative;
+ position:relative;
+  width: 7.6rem;
+  height: 7.6rem;
+ 
   display: inline-block;
   text-align: center;
-  font-size: 2rem;
+  font-size: 6rem;
   background: none;
 }
 
@@ -1173,12 +1180,13 @@ margin-left:-430px;
 .social-icon-button:hover span {
   display: block;
   border-radius: 3.6rem;
-  width: 3.6rem;
-  height: 3.6rem;
+  width: 4.6rem;
+  height: 4.6rem;
 }
 
 .social-icon-button.gplus {
   color: #dd4b39;
+
 }
 
 .social-icon-button.gplus span {
@@ -1206,13 +1214,16 @@ margin-left:-430px;
 	overflow:hidden;
 	text-decoration:none;
 	color:black;
+	font-size:60px;
+	margin-left:40px;
+	line-height:90px;
 }
 
 .copyright{
 	
-	font-size:small;
+	font-size:55px;
 	margin-left:5px;
-	margin-top:30px;
+	margin-top:2350px;
 }}
 
   
