@@ -1,5 +1,5 @@
-   
-   body {
+
+ body {
   background-color: white;
 }
 
@@ -307,11 +307,11 @@ margin-left:27%;
 @media screen and (max-width: 600px) {
 
  .mainimg{
-	width:1450px;
+	width:1490px;
 	height:700px;
 	
 	margin-right:12px;
-	margin-left:-66px;
+	margin-left:-70px;
 padding:60px;
 	
 
@@ -343,7 +343,7 @@ padding:60px;
         } 
       
         .geeks img { 
-            width: 100%; 
+            width: 104%; 
             transition: 0.25s all ease-in-out; 
         } 
       
@@ -1225,5 +1225,3 @@ margin-top:-70px;
 	margin-left:5px;
 	margin-top:2350px;
 }}
-
-  
