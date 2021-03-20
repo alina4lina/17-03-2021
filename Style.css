@@ -684,7 +684,7 @@ input[type=radio]:checked + section { display: block; }
 .container {
   position: relative;
   left: 50%;
-  margin-left: -60px;
+  margin-left: 20px;
   top: 50%;
   margin-top:-250px;
 
@@ -743,7 +743,7 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-right{
 	color:black;
-	margin-left:1400px;;
+	margin-left:1300px;;
 	font-size:50px;
 }
 
@@ -1173,7 +1173,7 @@ margin-left:-430px;
   background: #fff;
 }
 .slider .card .img{
-  height: 345px;
+  height: 600px;
   width: 100%;
 }
 .slider .card .img img{
