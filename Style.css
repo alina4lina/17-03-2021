@@ -567,8 +567,8 @@ padding:60px;
   display: none;
 }
 .geeks { 
-            width: 1550px;; 
-            height: 15o0px; 
+            width: 1650px;; 
+            height: 1550px; 
             overflow: hidden; 
             margin-left:1px; 
             
@@ -576,8 +576,8 @@ padding:60px;
         } 
       
         .geeks img { 
-            width: 1580px; 
-            height:1580px;
+            width: 1480px; 
+            height:1480px;
             margin-top:90px;
           
         } 
