@@ -736,7 +736,7 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-left{
 		color:black;
-		margin-left:2000px;
+		margin-left:2300px;
 		font-size:50px;
 	margin-bottom:-150px;
 }
@@ -756,7 +756,7 @@ input[type=radio]:checked + section { display: block; }
 }
 
 .images2.h3{
-	margin-top:-1300px;
+	margin-top:-1200px;
 	color:black;
 	font-size:45px;
 }
