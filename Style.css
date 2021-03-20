@@ -1052,7 +1052,7 @@ input[type=submit]:hover {
 .footer.column4 {
   float: left;
   width: 30%;
-  margin-left:105%;
+  margin-left:95%;
   margin-top:-144px;
   padding: 10px;
   height: 120px; /* Should be removed. Only for demonstration */
@@ -1341,7 +1341,7 @@ margin-top:700px;
  
   width: 40%;
  float:left;
- margin-left:-600px;
+ margin-left:-500px;
   margin-top:1150px;
 
   padding: 14px;
