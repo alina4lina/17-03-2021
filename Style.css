@@ -601,9 +601,9 @@ margin-bottom:20px;
   @media screen and (max-width: 600px) {
 .bestseller{
 	
-font-size:120px;
+font-size:130px;
 text-align:center;
-margin-left:350px;
+margin-left:370px;
 font-family:Arial black ,san-sefif;
 margin-top:120px;
 margin-bottom:120px;
@@ -727,8 +727,8 @@ input[type=radio]:checked + section { display: block; }
 }
 
 .images2{
-	width:890px;
-	height:910px;
+	width:1200px;
+	height:1000px;
 	display:block;
 	
 	
@@ -867,7 +867,7 @@ margin-bottom:100px;
 margin-left:410px;
 display:block;
 
- width: 1500px;
+ width: 1650px;
 }
 
 .newarrivals{
