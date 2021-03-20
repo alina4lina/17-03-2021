@@ -10,6 +10,7 @@
 
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="Style.css"/>
 <script src="js.js"></script>
 
@@ -17,8 +18,11 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 <script src="jquery-3.5.1.js"></script>
+<script src="button.js"></script>
+
     <script src="owl.carousel.min.js"></script>
      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     
 
@@ -40,6 +44,7 @@
 <div class="header-right">
      <a href="#contact">Sign In</a>
     <a class="fa fa-shopping-cart" style="font-size:36px"></a>
+   <a class="fa fa-user" style="font-size:36px"></a>
    
     </div>
 
@@ -180,39 +185,77 @@
       <i class="fas fa-bars" id="btn"></i>
       <i class="fas fa-times" id="cancel"></i>
     </label>
-    <div class="sidebar">
+     <div class="sidebar">
+    
+    
+    <a class="search" href="#">
+        <span><div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div></span>
+      </a>
+     
+    
+             <a href="#" class="active">
+       
+        <span>AGENT CENTRE</span>      </a>
+          
+                
+          
+          
+      <a href="#">
+        <span>READY STOCK</span>
+        
+        <i class="fa fa-angle-right"></i>
+
+      </a>
       
-      <a href="#" class="active">
-        <i class="fas fa-qrcode"></i>
-        <span>Dashboard</span>
+      <a href="#">
+        
+        <span>SABELLAKAN RAYAMU</span>
+        
+        <i class="fa fa-angle-right" ></i>
+
       </a>
       <a href="#">
-        <i class="fas fa-link"></i>
-        <span>Shortcuts</span>
+        
+        <span>BLOUSE TANPA GOSOK</span>
+        
+        <i class="fa fa-angle-right" ></i>
+
       </a>
       <a href="#">
-        <i class="fas fa-stream"></i>
-        <span>Overview</span>
+         
+        <span>SUIT TANPA GOSOKs</span>
+        
+        <i class="fa fa-angle-right"></i>
+
       </a>
       <a href="#">
-         <i class="fas fa-calendar"></i>
-        <span>Events</span>
+       
+        <span>CLEARANCE STOCK!</span>
+        
+        <i class="fa fa-angle-right"></i>
+
       </a>
       <a href="#">
-        <i class="far fa-question-circle"></i>
-        <span>About</span>
+                <span>KURUNG TANPA GOSOK</span>
+                
+        <i class="fa fa-angle-right"></i>
+
       </a>
       <a href="#">
-        <i class="fas fa-sliders-h"></i>
-        <span>Services</span>
-      </a>
-      <a href="#">
-        <i class="far fa-envelope"></i>
-        <span>Contact</span>
+        <span>TUDUNG BAWAL</span>
+        
+        <i class="fa fa-angle-right"></i>
+
       </a>
     </div> 
 
 <h2 class="m h2">ALISHA'S</h2>
+<a class="fa fa-user"></a>
 
 
  <img class="mainimg" src="images/Contest_kv_20210314100326.jpg"/>
@@ -464,7 +507,7 @@ Rm29.90</div>
 </div>
           </div>
 
-  </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"> <a class= "fa fa-chevron-circle-up" "style=font-size:20px;"></a></button>
 
 </footer>
 
@@ -481,9 +524,24 @@ Rm29.90</div>
     </script>
     
     
+<script>
+var mybutton = document.getElementById("myBtn");
 
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
+ </script>
 
 
 
@@ -505,28 +563,5 @@ Rm29.90</div>
     
     
   </body>
-  </html>  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
+  </html>
   
