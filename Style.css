@@ -743,7 +743,7 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-right{
 	color:black;
-	margin-left:1100px;;
+	margin-left:900px;;
 	font-size:50px;
 }
 
@@ -830,7 +830,7 @@ dislay:none;}
 width:1640px;
  height:1600px;
  display:block;
- margin-top:1000px;
+ margin-top:1300px;
 	
 	}
 .geek2{
@@ -909,7 +909,7 @@ display:none;
   color:black;
 }
 .card .content .sub-title{
-  font-size: 29px;
+  font-size: 40px;
   font-weight: 600;
   color: black;
   line-height: 33px;
@@ -921,7 +921,7 @@ display:none;
   margin: 12px ;
   text-align:center;
 color:black;
-font-size:24px;
+font-size:36px;
 }
 
  @media only screen and (min-width : 480px){
