@@ -736,16 +736,16 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-left{
 		color:black;
-		margin-left:850px;
+		margin-left:1000px;
 		font-size:50px;
-	margin-bottom:150px;
+	margin-bottom:-150px;
 }
 
 .fa.fa-chevron-right{
 	color:black;
 	margin-left:900px;;
 	font-size:50px;
-	margin-bottom:150px;
+	margin-bottom:-150px;
 }
 
 .images2.h2{
@@ -756,7 +756,7 @@ input[type=radio]:checked + section { display: block; }
 }
 
 .images2.h3{
-	margin-top:-950px;
+	margin-top:-400px;
 	color:black;
 	font-size:45px;
 }
@@ -867,7 +867,7 @@ font-size:90px;
 font-family:Arial Black,san-sefif;
 margin-top:	100px;
 margin-bottom:100px;
-margin-left:410px;
+margin-left:600px;
 display:block;
 
  width: 1500px;
