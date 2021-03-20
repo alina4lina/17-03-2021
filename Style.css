@@ -324,7 +324,7 @@ display:none;
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
 .sidebar{
   position: fixed;
-  width:1300px;
+  width:1301px;
   left: -1300px;
   height: 400%;
   background: white;
@@ -472,7 +472,7 @@ font-size:135px;
 display:inline;
 text-align:center;
 padding:0px;
-	margin-top:10px;
+	margin-top:30px;
 margin-left:130%;
 
 }
