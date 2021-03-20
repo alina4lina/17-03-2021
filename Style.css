@@ -751,14 +751,14 @@ input[type=radio]:checked + section { display: block; }
 .images2.h2{
 	margin-top:70px;
 	color:black;
-	font-size:45px;
+	font-size:55px;
 	
 }
 
 .images2.h3{
 	margin-top:-1250px;
 	color:black;
-	font-size:45px;
+	font-size:53px;
 }
 .img3.column {
  display:none;}
@@ -838,7 +838,7 @@ width:1640px;
 width:1640px;
  height:1600px;
  display:block;
- margin-top:400px;
+ margin-top:100px;
 	
 	}	}
 	
