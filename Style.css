@@ -727,8 +727,8 @@ input[type=radio]:checked + section { display: block; }
 }
 
 .images2{
-	width:900px;
-	height:1000px;
+	width:110px;
+	height:1200px;
 	display:block;
 	
 	
@@ -825,8 +825,8 @@ dislay:none;}
 
  @media screen and (max-width: 600px) {
 .geek1{
-width:1540px;
- height:1420px;
+width:1590px;
+ height:1560px;
  display:block;
  margin-top:800px;
 	
