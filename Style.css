@@ -684,7 +684,7 @@ input[type=radio]:checked + section { display: block; }
 .container {
   position: relative;
   left: 50%;
-  margin-left: 60px;
+  margin-left: 40px;
   top: 50%;
   margin-top:-250px;
 
@@ -738,11 +738,12 @@ input[type=radio]:checked + section { display: block; }
 		color:black;
 		margin-left:1600px;
 		font-size:50px;
+	margin-bottom:50px;
 }
 
 .fa.fa-chevron-right{
 	color:black;
-	margin-left:1100px;;
+	margin-left:1400px;;
 	font-size:50px;
 }
 
