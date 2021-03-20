@@ -603,7 +603,7 @@ margin-bottom:20px;
 	
 font-size:120px;
 text-align:center;
-margin-left:450px;
+margin-left:650px;
 font-family:Arial black ,san-sefif;
 margin-top:120px;
 margin-bottom:120px;
@@ -684,7 +684,7 @@ input[type=radio]:checked + section { display: block; }
 .container {
   position: relative;
   left: 50%;
-  margin-left: 80px;
+  margin-left: 60px;
   top: 50%;
   margin-top:-250px;
 
@@ -736,13 +736,13 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-left{
 		color:black;
-		margin-left:1400px;
+		margin-left:1600px;
 		font-size:50px;
 }
 
 .fa.fa-chevron-right{
 	color:black;
-	margin-left:900px;;
+	margin-left:1100px;;
 	font-size:50px;
 }
 
@@ -750,6 +750,7 @@ input[type=radio]:checked + section { display: block; }
 	margin-top:70px;
 	color:black;
 	font-size:45px;
+	
 }
 
 .images2.h3{
@@ -832,8 +833,8 @@ width:1640px;
 	
 	}
 .geek2{
-width:1540px;
- height:1420px;
+width:1640px;
+ height:1600px;
  display:block;
  margin-top:400px;
 	
@@ -1159,7 +1160,7 @@ margin-left:-430px;
 }}
 @media screen and (max-width: 600px) {
   .slider{
-  min-width: 1100px;
+  min-width: 1500px;
   margin-top:50px;
   display:flex;
   margin-left:130px;
