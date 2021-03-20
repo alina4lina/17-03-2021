@@ -736,16 +736,16 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-left{
 		color:black;
-		margin-left:1050px;
+		margin-left:850px;
 		font-size:50px;
-	margin-bottom:80px;
+	margin-bottom:150px;
 }
 
 .fa.fa-chevron-right{
 	color:black;
 	margin-left:900px;;
 	font-size:50px;
-	margin-bottom:80px;
+	margin-bottom:150px;
 }
 
 .images2.h2{
@@ -756,7 +756,7 @@ input[type=radio]:checked + section { display: block; }
 }
 
 .images2.h3{
-	margin-top:-700px;
+	margin-top:-950px;
 	color:black;
 	font-size:45px;
 }
@@ -1174,7 +1174,7 @@ margin-left:-430px;
   background: #fff;
 }
 .slider .card .img{
-  height: 505px;
+  height: 525px;
   width: 100%;
 }
 .slider .card .img img{
@@ -1186,13 +1186,13 @@ margin-left:-430px;
   padding: 10px 10px;
 }
 .card .content .title{
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   text-align:center;
   color:black;
 }
 .card .content .sub-title{
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   color: black;
   line-height: 33px;
@@ -1204,7 +1204,7 @@ margin-left:-430px;
   margin: 12px ;
   text-align:center;
 color:black;
-font-size:22px;
+font-size:26px;
 }
 }
 
