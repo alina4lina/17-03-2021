@@ -684,7 +684,7 @@ input[type=radio]:checked + section { display: block; }
 .container {
   position: relative;
   left: 50%;
-  margin-left: 40px;
+  margin-left: -40px;
   top: 50%;
   margin-top:-250px;
 
@@ -743,7 +743,7 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-right{
 	color:black;
-	margin-left:1400px;;
+	margin-left:1700px;;
 	font-size:50px;
 }
 
