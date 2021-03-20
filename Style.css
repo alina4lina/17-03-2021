@@ -736,15 +736,16 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-left{
 		color:black;
-		margin-left:900px;
+		margin-left:1050px;
 		font-size:50px;
-	margin-bottom:50px;
+	margin-bottom:80px;
 }
 
 .fa.fa-chevron-right{
 	color:black;
 	margin-left:900px;;
 	font-size:50px;
+	margin-bottom:80px;
 }
 
 .images2.h2{
@@ -755,7 +756,7 @@ input[type=radio]:checked + section { display: block; }
 }
 
 .images2.h3{
-	margin-top:-870px;
+	margin-top:-700px;
 	color:black;
 	font-size:45px;
 }
@@ -1161,10 +1162,10 @@ margin-left:-430px;
 }}
 @media screen and (max-width: 600px) {
   .slider{
-  min-width: 1100px;
+  min-width: 1500px;
   margin-top:50px;
   display:flex;
-  margin-left:130px;
+  margin-left:110px;
   
 }
 .slider .card{
@@ -1173,7 +1174,7 @@ margin-left:-430px;
   background: #fff;
 }
 .slider .card .img{
-  height: 345px;
+  height: 505px;
   width: 100%;
 }
 .slider .card .img img{
@@ -1185,13 +1186,13 @@ margin-left:-430px;
   padding: 10px 10px;
 }
 .card .content .title{
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 600;
   text-align:center;
   color:black;
 }
 .card .content .sub-title{
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: black;
   line-height: 33px;
@@ -1203,7 +1204,7 @@ margin-left:-430px;
   margin: 12px ;
   text-align:center;
 color:black;
-font-size:12px;
+font-size:22px;
 }
 }
 
@@ -1212,7 +1213,7 @@ font-size:12px;
 
 .footer-gray {
   background-color: #F5F5F5;
-  width: 1450px;
+  width: 1640px;
   height:3400px;
   margin-left:-10px;
  
