@@ -49,26 +49,24 @@ margin-right:auto;
  
 }
 	
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
 	
 .boxtext{
-max-width: 600px; 
-height: auto; 
-  letter-spacing: 3px;
-  padding: 40px 20px;
-  margin-left:-8px;;
+max-width:100%;
+height:auto;
+  letter-spacing: 1px;
+  padding: 10px 10px;
   line-height: 1.5;  
-  top:-25px;;
   color:white;
-  text-align:center;
   background-color:black;
     font-family:"City Bold",sans-serif;
-  font-size:45px;
+  font-size:18px;
   margin-top:-10px;
   
  
 }	
 }
+
 
 .header {
   overflow: hidden;
