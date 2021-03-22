@@ -479,11 +479,12 @@ display:none;
 
 color:black;
 font-size:45px;
+position:fixed;
 display:inline;
 text-align:center;
-padding:10px 10px;
 margin-left:15%;
-margin-top:20px!important;
+padding:10px 10px;
+margin-top:-10px!important;
 margin-bottom:50px;
 
 }
@@ -1510,9 +1511,10 @@ display:none;}
 .fa.fa-user{
 	color:black;
 	display:block;
-	margin-top:-36px;
+	margin-top:15px;
 	font-size:24px;
-	margin-left:320px;
+	float:right;
+	margin-right:10px;
 	margin-bottom:-30px;
 	
 }
@@ -1542,5 +1544,8 @@ display:none;}
 	}
 
 }
+
+
+
 
 
