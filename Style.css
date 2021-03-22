@@ -5,6 +5,8 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     background-color: white;
+    width:400px;
+    max-height:600px;
   }
 }
    
@@ -31,7 +33,8 @@ margin-right:auto;
 	
 
 .boxtext{
-  width: 100%;
+ 
+  max-width:1800px;
   height:40px;
   padding: 10px 12px;
   margin-left:-8px;;  
@@ -45,16 +48,16 @@ margin-right:auto;
   
  
 }
-
-@media only screen and (max-width: 600px){
+	
+@media screen and (max-width: 600px) {
 	
 .boxtext{
-  width: 1650px;
-  height:250px;
+max-width: 600px; 
+height: auto; 
   letter-spacing: 3px;
   padding: 40px 20px;
   margin-left:-8px;;
-  line-height: 1.7;  
+  line-height: 1.5;  
   top:-25px;;
   color:white;
   text-align:center;
@@ -324,7 +327,7 @@ display:none;
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
 .sidebar{
   position: fixed;
-  width:1301px;
+  width:1300px;
   left: -1300px;
   height: 400%;
   background: white;
@@ -472,8 +475,7 @@ font-size:135px;
 display:inline;
 text-align:center;
 padding:0px;
-	margin-top:55px;
-margin-left:130%;
+margin-left:110%;
 
 }
 
@@ -506,11 +508,10 @@ margin-left:130%;
 
  .mainimg{
 	width:1650px;
-	height:900px;
+	height:700px;
 	
 	margin-right:12px;
 	margin-left:-70px;
-	 margin-top:50px;
 padding:60px;
 	
 
@@ -569,8 +570,8 @@ padding:60px;
   display: none;
 }
 .geeks { 
-            width: 1750px;; 
-            height: 1550px; 
+            width: 1480px;; 
+            height: 1300px; 
             overflow: hidden; 
             margin-left:1px; 
             
@@ -578,8 +579,8 @@ padding:60px;
         } 
       
         .geeks img { 
-            width: 1630px; 
-            height:1580px;
+            width: 1480px; 
+            height:1480px;
             margin-top:90px;
           
         } 
@@ -605,7 +606,7 @@ margin-bottom:20px;
 	
 font-size:120px;
 text-align:center;
-margin-left:550px;
+margin-left:350px;
 font-family:Arial black ,san-sefif;
 margin-top:120px;
 margin-bottom:120px;
@@ -686,7 +687,7 @@ input[type=radio]:checked + section { display: block; }
 .container {
   position: relative;
   left: 50%;
-  margin-left: 20px;
+  margin-left: 80px;
   top: 50%;
   margin-top:-250px;
 
@@ -729,8 +730,8 @@ input[type=radio]:checked + section { display: block; }
 }
 
 .images2{
-	width:1200px;
-	height:1300px;
+	width:890px;
+	height:910px;
 	display:block;
 	
 	
@@ -738,29 +739,26 @@ input[type=radio]:checked + section { display: block; }
 
 .fa.fa-chevron-left{
 		color:black;
-		margin-left:2300px;
+		margin-left:1300px;
 		font-size:50px;
-	margin-bottom:-160px;
 }
 
 .fa.fa-chevron-right{
 	color:black;
-	margin-left:1000px;;
+	margin-left:700px;;
 	font-size:50px;
-	margin-bottom:-160px;
 }
 
 .images2.h2{
 	margin-top:70px;
 	color:black;
-	font-size:55px;
-	
+	font-size:45px;
 }
 
 .images2.h3{
-	margin-top:-1250px;
+	margin-top:-870px;
 	color:black;
-	font-size:53px;
+	font-size:45px;
 }
 .img3.column {
  display:none;}
@@ -830,17 +828,17 @@ dislay:none;}
 
  @media screen and (max-width: 600px) {
 .geek1{
-width:1640px;
- height:1600px;
+width:1440px;
+ height:1420px;
  display:block;
- margin-top:1200px;
+ margin-top:800px;
 	
 	}
 .geek2{
-width:1640px;
- height:1600px;
+width:1440px;
+ height:1420px;
  display:block;
- margin-top:100px;
+ margin-top:200px;
 	
 	}	}
 	
@@ -850,7 +848,7 @@ width:1640px;
 	font-size:xx-large;
 text-align:center;
 font-family:Arial Black,san-sefif;
-margin-top:-20px;
+margin-top:-10px;
 margin-bottom:5px;
 display:block;
 
@@ -869,7 +867,7 @@ font-size:90px;
 font-family:Arial Black,san-sefif;
 margin-top:	100px;
 margin-bottom:100px;
-margin-left:600px;
+margin-left:410px;
 display:block;
 
  width: 1500px;
@@ -932,7 +930,7 @@ font-size:12px;
 
 .footer-gray {
   background-color: #F5F5F5;
-  width: 1350px;
+  width: 100%;
   height:350px;
  
 }
@@ -1164,11 +1162,10 @@ margin-left:-430px;
 }}
 @media screen and (max-width: 600px) {
   .slider{
-  min-width: 1500px;
+  min-width: 1100px;
   margin-top:50px;
   display:flex;
-  margin-left:110px;
-	  margin-bottom:50px;
+  margin-left:130px;
   
 }
 .slider .card{
@@ -1177,7 +1174,7 @@ margin-left:-430px;
   background: #fff;
 }
 .slider .card .img{
-  height: 525px;
+  height: 345px;
   width: 100%;
 }
 .slider .card .img img{
@@ -1189,13 +1186,13 @@ margin-left:-430px;
   padding: 10px 10px;
 }
 .card .content .title{
-  font-size: 32px;
+  font-size: 14px;
   font-weight: 600;
   text-align:center;
   color:black;
 }
 .card .content .sub-title{
-  font-size: 28px;
+  font-size: 14px;
   font-weight: 600;
   color: black;
   line-height: 33px;
@@ -1207,7 +1204,7 @@ margin-left:-430px;
   margin: 12px ;
   text-align:center;
 color:black;
-font-size:26px;
+font-size:12px;
 }
 }
 
@@ -1216,7 +1213,7 @@ font-size:26px;
 
 .footer-gray {
   background-color: #F5F5F5;
-  width: 1640px;
+  width: 1450px;
   height:3400px;
   margin-left:-10px;
  
@@ -1262,7 +1259,7 @@ float:left;
 
   float: non;
   margin-top:-35px;
-  font-size:90px;
+  font-size:70px;
   margin-left:-35px;
   
 
@@ -1289,7 +1286,6 @@ float:left;
 
 input[type=email], select {
 font-size:26px;
-	color:black !important;
   width: 300px;
   padding: 49px 300px;
   margin: 8px 0;
@@ -1345,7 +1341,7 @@ margin-top:700px;
  
   width: 40%;
  float:left;
- margin-left:-680px;
+ margin-left:-600px;
   margin-top:1150px;
 
   padding: 14px;
@@ -1355,7 +1351,7 @@ margin-top:700px;
 
 .footer.h2{
 	
-	font-size:75px;
+	font-size:55px;
 	color:black;
 	font-family:Arial black;
 	margin-left:30px;
@@ -1487,7 +1483,7 @@ display:none;}
 	display:block;
 	margin-top:-111px;
 	font-size:60px;
-	margin-left:1540px;
+	margin-left:1330px;
 }
 #myBtn {
   display:inline;
