@@ -60,13 +60,12 @@ height:auto;
   color:white;
   background-color:black;
     font-family:"City Bold",sans-serif;
-  font-size:18px;
+  font-size:15px;
   margin-top:-10px;
   
  
 }	
 }
-
 
 .header {
   overflow: hidden;
@@ -325,7 +324,7 @@ display:none;
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
 .sidebar{
   position: fixed;
-  width:1300px;
+  max-width:25%;
   left: -1300px;
   height: 400%;
   background: white;
@@ -338,7 +337,7 @@ display:none;
 .sidebar header{
   font-size: 28px;
   color: white;
-  line-height: 70px;
+  line-height: 50px;
   text-align: center;
   background: #1b1b1b;
   user-select: none;
@@ -346,25 +345,26 @@ display:none;
 }
 .sidebar a{
   display: block;
-  height: 100px;
-  font-size:60px;
+  height: 45px;
+  font-size:18px;
   width: 100%;
   text-decoration:none;
   color: black;
-  line-height: 65px;
-  padding-left: 30px;
+  line-height: 20px;
+  padding-left: 10px;
   box-sizing: border-box;
   border-bottom: 1px solid black;
   border-top: 0px solid rgba(255,255,255,.1);
   border-left: 0px solid transparent;
   font-family: 'Open Sans', sans-serif;
   transition: all .5s ease;
-  margin-top:100px;
+  margin-top:20px;
 }
 
 a.active,a:hover{
   border-left: 5px solid #b93632;
   color: #b93632;
+  margin-top:93px;
   
 }
 
@@ -378,7 +378,7 @@ a.active,a:hover{
 }
 .sidebar a span{
   letter-spacing: 1px;
-  line-height:-50px;
+  line-height:10px;
   text-transform: uppercase;
 }
 #check{
@@ -390,13 +390,12 @@ label #btn,label #cancel{
   cursor: pointer;
   color: black;
 
-  margin: 30px 30px;
-  font-size: 50px;
+  margin: 10px 10px;
+  font-size: 20px;
   background: none;
-  height: 150px;
-  width: 170px;
+  width: 10px;
   text-align: center;
-  line-height: 90px;
+  line-height: 40px;
   transition: all .5s ease;
   display:inline;
  
@@ -405,7 +404,7 @@ label #cancel{
   opacity: 0;
   visibility: hidden;
   display:block;
- margin-left:240px;
+ margin-left:-200px;
 }
 #check:checked ~ .sidebar{
   left: 0;
@@ -416,12 +415,13 @@ label #cancel{
   opacity: 0;
   visibility: hidden;
   display:block;
-  margin-top:150px;
+  margin-top:10px;
    
 }
 #check:checked ~ label #cancel{
-  margin-left: 1290px;
+  margin-left: 295px;
   opacity: 1;
+  margin-top:1px;
   visibility: visible;
   display:block;
  
@@ -432,23 +432,23 @@ label #cancel{
 }
 .search-container {
   float: left;
-  margin-top:-50px;
+  margin-top:-10px;
 }
 
  input[type=text] {
-  padding: 6px;
+  padding: 10px;
   margin-top: 4px;
-  font-size: 77px;
+  font-size: 15px;
   border: none;
 }
 
 .search-container button {
   float: right;
   padding: 6px 10px;
-  margin-top: 104px;
-  margin-right: 16px;
+  margin-top: 45px;
+  margin-right: 10px;
   background: none;
-  font-size: 87px;
+  font-size: -30px;
   border: none;
   cursor: pointer;
 }
@@ -456,9 +456,15 @@ label #cancel{
 .search-container button:hover {
   background: #ccc;
 }
+
+.fa.fa-search{
+font-size:20px;
+margin-top:-30px;
+
+}
 .fa.fa-angle-right{
 float:right;
-font-size:80px;
+font-size:20px;
 }
 .m.h2{
 
@@ -469,11 +475,12 @@ display:none;
 .m.h2{
 
 color:black;
-font-size:135px;
+font-size:40px;
 display:inline;
 text-align:center;
 padding:0px;
-margin-left:110%;
+margin-left:20%;
+margin-bottom:50px;
 
 }
 
@@ -1508,3 +1515,7 @@ display:none;}
 	}
 
 }}
+
+ 
+
+  
