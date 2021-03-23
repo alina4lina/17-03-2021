@@ -332,11 +332,11 @@ display:none;
 @media screen and (max-width: 600px) {
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
 .sidebar{
-  position: fixed;
+position:absolute;
   display:block;
   max-width:80%;
   left: -1300px;
-  height: 400%;
+  height: 103%;
   background: white;
   transition: all .5s ease;
  
@@ -1545,7 +1545,7 @@ display:none;}
   background-color: transparent;
   color: black;
   cursor: pointer;
-  padding: 0px;
+  padding: 20px;
   
 }
 
