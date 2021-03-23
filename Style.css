@@ -31,17 +31,18 @@ margin-right:auto;
 
 .boxtext{
  
-  max-width:1800px;
+  max-width:2000px;
   height:40px;
-  padding: 10px 12px;
+  padding: 10px 20px;
   margin-left:-8px;;  
-  top:-25px;;
+  top:25px;;
+  line-height:-2px;
   color:white;
   text-align:center;
   background-color:black;
     font-family:"City Bold",sans-serif;
-  font-size:small;
-  margin-top:-10px;
+  font-size:medium;
+  margin-top:10px;
     
 
   
@@ -600,7 +601,7 @@ padding:60px;
         } 
       
         .geeks img { 
-            max-width: 90%;
+            max-width: 100%;
             height:auto;
             margin-top:10px;
           margin-left:-3px;
@@ -1560,7 +1561,5 @@ display:none;}
 	}
 
 }
-
-
 
 
